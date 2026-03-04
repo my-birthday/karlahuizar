@@ -941,8 +941,13 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 .btn:hover{
   text-decoration:none;
   color: #cc587b;
-  border-color: #ffa4bb;
-  background-color:#ffa4bb; 
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
+  border-right: 1px solid ;
+  border-left: 1px solid ;
+ 
+  border-color: #cc587b;
+  background-color:transparent; 
  
 }
 @media (min-width: 1000px) { /*laptop*/
